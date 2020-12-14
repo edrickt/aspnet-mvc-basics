@@ -137,6 +137,9 @@ the culprit, but I don't know which ones.
 
 ## Outside Resources Used
 
-
+Changing error message: https://stackoverflow.com/questions/50435891/how-to-customize-validation-error-message-given-by-text-danger
 
 ## Known Problems, Issues, And/Or Errors in the Program
+
+Error message when not inputing numbers is still "Please enter numbers" instead of saying "price decimal."
+No error message when entering ID for beverage that is a duplicate in database
