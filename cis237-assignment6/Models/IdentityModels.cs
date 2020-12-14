@@ -1,4 +1,7 @@
-﻿using System.Data.Entity;
+﻿// Edrick Tamayo
+// Thursday 3:30PM
+// 12/18/20
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -6,7 +9,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace cis237_assignment6.Models
 {
-    // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
+    //You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)

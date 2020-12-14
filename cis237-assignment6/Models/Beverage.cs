@@ -1,3 +1,6 @@
+// Edrick Tamayo
+// Thursday 3:30PM
+// 12/18/20
 namespace cis237_assignment6.Models
 {
     using System;
@@ -19,6 +22,7 @@ namespace cis237_assignment6.Models
         [StringLength(20)]
         public string pack { get; set; }
 
+        [Required(ErrorMessage = "Please enter a price decimal")]
         [Column(TypeName = "money")]
         public decimal price { get; set; }
 

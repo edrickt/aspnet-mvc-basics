@@ -1,3 +1,6 @@
+// Edrick Tamayo
+// Thursday 3:30PM
+// 12/18/20
 namespace cis237_assignment6.Models
 {
     using System;

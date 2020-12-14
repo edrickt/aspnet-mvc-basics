@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿// Edrick Tamayo
+// Thursday 3:30PM
+// 12/18/20
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace cis237_assignment6.Models
