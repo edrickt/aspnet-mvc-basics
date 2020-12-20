@@ -11,7 +11,7 @@ namespace cis237_assignment6.Models
     public partial class BeverageContext : DbContext
     {
         public BeverageContext()
-            : base("name=BeverageContext")
+            : base("DefaultConnection")
         {
         }
 
